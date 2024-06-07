@@ -1,0 +1,161 @@
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark_Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose_White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light_Grey: hsl(30, 18%, 87%);
+    --Wenge_Brown: hsl(30, 10%, 34%);
+    --Dark_Charcoal: hsl(24, 5%, 18%);
+}
+
+
+body{
+    background-color: var(--Eggshell);
+    font-family: "Outfit",  sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: var(--White);
+    width: 550px;
+    height: 1600px;
+    margin: 40px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.omlette{
+    width: 90%;
+    height: 13%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.recipeTitle{
+    font-family: "Young Serif", sans-serif;
+    margin-left: 20px;
+    font-weight: 550;
+}
+
+
+.recipeDescription{
+  font-size: 13px;
+  margin-left: 15px;
+  color: var(--Dark_Charcoal);
+}
+
+.preparationTime{
+    background-color: var(--Rose_White);
+    width: 90%;
+    height: 10%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.preparationTitle{
+    margin-left: 20px;
+    color: var(--Dark_Raspberry);
+    font-size: 16px;
+}
+
+.preparationItem{
+    margin-bottom: 14px;
+}
+
+.ingredients{
+    margin-left: 20px;
+    font-family: "Young Serif", sans-serif;
+    color: var(--Nutmeg);
+    margin-bottom: 5px;
+}
+
+.ingredientsList{
+    color: var(--Dark_Charcoal);
+}
+
+.ingredientsItem{
+    margin-bottom: 14px;
+}
+
+.divider{
+    border-bottom: 1px solid var(--Light_Grey);
+    width: 90%;
+    margin-left: 17px;
+    
+}
+
+.instructions{
+    margin-left: 20px;
+    font-family: "Young Serif", sans-serif;
+    color: var(--Nutmeg);
+    margin-bottom: 5px;
+}
+
+
+.instructionsList{
+    color:  var(--Dark_Charcoal);
+    margin-bottom: 30px;
+}
+
+.instructionsItem{
+    margin-bottom: 14px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+
+.instructionsItem::marker {
+    color: var(--Nutmeg); /* Change the color of the numbers */
+    font-weight: bold; /* Make the numbers bold */
+    margin-right: 20px; 
+  }
+
+  .nutritions{
+    margin-left: 20px;
+    font-family: "Young Serif", sans-serif;
+    color: var(--Nutmeg);
+    margin-bottom: 5px;
+  }
+
+  .nutritionsP{
+    font-size: 15px;
+    margin-left: 20px;
+    color:  var(--Dark_Charcoal);
+  }
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  
+
+  .row {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the title and value */
+    margin-left: 60px;
+   
+    
+    
+  }
+  
+  .rowTitle {
+    flex: 1;
+  }
+  
+  .rowValue {
+    margin-left: 20px; /* Adjust the margin as needed */
+    min-width: 200px; /* Ensure all values align, adjust width as necessary */
+    text-align: left; /* Align text to the left */
+    color: var(--Nutmeg);
+  }
+  
+  
+
+  
